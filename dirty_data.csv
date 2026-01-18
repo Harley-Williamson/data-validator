@@ -1,0 +1,8 @@
+customer_id,customer_name,email,phone,last_service_date,address
+1001,Acme Corp,contact@acme.com,555-123-4567,#FMT,123 Main St
+1002,,info@globex.com,5551234567,2024-02-15,456 Oak Ave
+1003,Initech,invalid-email,555-987-6543,not_a_date,789 Pine Rd
+1004,Umbrella Corp,,555-000-1111,2023-11-10,
+1005,Wayne Enterprises,bruce@wayne.com,,2024-01-05,1007 Mountain Dr
+1006,Stark Industries,tony@stark.com,555-IRONMAN,,200 Park Ave
+1007,Oscorp,contact@oscorp.com,555-222-3333,2022-01-12,42 Lab Way

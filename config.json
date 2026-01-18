@@ -1,0 +1,23 @@
+{
+    "columns":
+    {
+        "customer_id":{},
+        "customer_name":{},
+        "email":{
+            "validate":"email"
+        },
+        "phone":{
+            "validate":"phone"
+        },
+        "last_service_date":{
+            "validate":"date"
+        },
+        "address":{}
+    },
+    "validation":
+    {
+        "date_format": "%Y-%m-%d",
+        "phone_regex": "^\\(?\\d{3}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4}$",
+        "email_regex": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z]{2,}$"
+    }
+}
